@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Chair2.ma
-//Last modified: Tue, Aug 29, 2023 01:31:36 PM
+//Last modified: Tue, Aug 29, 2023 01:33:54 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Mac OS X 13.4";
-fileInfo "UUID" "A2FF8B15-7640-1DB3-E0B0-54AB7D1AC946";
+fileInfo "UUID" "B57FA21B-FD41-7BC1-3227-7FA966711958";
 createNode transform -s -n "persp";
 	rename -uid "11781376-B041-F9AB-61E9-91A2A8B26877";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.8415613371791508 7.1204744510732363 -12.251274372532659 ;
-	setAttr ".r" -type "double3" -12.338352729968182 867.39999999943257 0 ;
+	setAttr ".t" -type "double3" 6.3249775845019869 8.0280794976856331 -12.84381838387584 ;
+	setAttr ".r" -type "double3" -15.938352729963887 873.79999999940708 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "969FA847-2045-3C9A-9185-AF885B5E9598";
 	setAttr -k off ".v" no;
