@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Shovel.ma
-//Last modified: Thu, Sep 07, 2023 12:58:13 PM
+//Last modified: Thu, Sep 07, 2023 01:00:26 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Mac OS X 13.4";
-fileInfo "UUID" "F720EF2C-E047-3170-94EF-079024AFE0E5";
+fileInfo "UUID" "330E14BC-F946-443E-3631-82BB658F3717";
 createNode transform -s -n "persp";
 	rename -uid "A30D8CAD-5A49-EDF4-97C0-469A023C9702";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -8.2165491708366538 5.3456639016530598 6.6468361123342339 ;
-	setAttr ".r" -type "double3" -13.538352730798817 -410.99999999967372 2.5269757079818472e-15 ;
+	setAttr ".t" -type "double3" -7.9306976805909759 6.2214381981313664 6.6008139840276421 ;
+	setAttr ".r" -type "double3" -18.338352730811408 -410.19999999962573 1.2421912540919613e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E3D74931-FA4E-A9EF-A44F-11B935BC85E1";
 	setAttr -k off ".v" no;
