@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Retopo_Finished.ma
-//Last modified: Fri, Oct 06, 2023 02:44:29 PM
+//Last modified: Fri, Oct 06, 2023 03:01:37 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,17 +10,17 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Mac OS X 14.0";
-fileInfo "UUID" "4FED1F52-D54C-42B4-1BF8-0098871ED3A6";
+fileInfo "UUID" "8F091A6C-FA4E-4049-185A-748C959F0213";
 createNode transform -s -n "persp";
 	rename -uid "2F96C5CC-CF48-3364-978F-BF80661D753F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 24.604633784552281 6.8966675138409279 2.9377908073694261 ;
+	setAttr ".t" -type "double3" 24.635408807463136 6.9001816295736766 2.9451224519952226 ;
 	setAttr ".r" -type "double3" -6.3383527328226057 76.59999999999421 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F7E47E0A-8A46-F757-7132-5EBE985BE8D9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 25.448781023763825;
+	setAttr ".coi" 25.480611890190392;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
